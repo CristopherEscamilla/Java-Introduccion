@@ -1,5 +1,5 @@
 /**
- * Este programa es parte del curso de Introducción de HackerRank.
+ * Este programa es parte del curso de Introducción a Java de HackerRank.
  *
  * @author Cristopher Escamilla
  * @version 1.0
@@ -8,7 +8,8 @@
 
 class WelcomeJava {
   public static void main(String[] args) {
-    /**Usando la clase System
+    /**
+    *Usando la clase System
     *La clase contiene varios campos de clase útiles y métodos.
     *No se puede instanciar. System
     *Entre las facilidades que brinda la clase son flujos de entrada,
