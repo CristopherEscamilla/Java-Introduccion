@@ -4,8 +4,8 @@ import java.util.*;
  * para imprimir un mensaje según las siguientes reglas:
  *
  *  Si el número es impar, imprime "Weird"
- *  Si el número es par y está entre 2 y 5 (inclusive), imprime "Not Weird"
- *  Si el número es par y está entre 6 y 20 (inclusive), imprime "Weird"
+ *  Si el número es par y está entre 2 y 5, imprime "Not Weird"
+ *  Si el número es par y está entre 6 y 20, imprime "Weird"
  *  Si el número es par y mayor que 20, imprime "Not Weird"
  *
  * @author Cristopher Escamilla
