@@ -1,8 +1,9 @@
 import java.util.Scanner;
 /**
- * Descripción: Este programa lee tres tipos de datos desde la entrada estándar:
- *              un entero, un número decimal (double) y una línea de texto (String).
- *              Luego imprime los valores en orden inverso: String, Double, Int.
+ * Este programa lee tres tipos de datos desde la entrada estándar:
+ * un entero, un número decimal (double) y una línea de texto (String).
+ * Luego imprime los valores en orden inverso: String, Double, Int.
+ *
  * @author Cristopher Escamilla
  * @version 1.0
  * @see java.util.Scanner
@@ -15,10 +16,10 @@ class JavaStdinStdoutII {
       // Escanea el siguiente elemento de la entrada como un número
       // decimal (tipo double)
       double d = scan.nextDouble();
-      scan.nextLine();
       // nextLine()Escanea el siguiente elemento (o palabra) de la entrada como un número decimal (tipo double)
       // Avanza este escáner más allá de la línea actual y
       // devuelve la entrada que fue omitida.
+      scan.nextLine();
       String s = scan.nextLine();
 
       System.out.println("String: " + s);

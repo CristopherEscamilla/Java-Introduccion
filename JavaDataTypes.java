@@ -1,9 +1,7 @@
 import java.io.*;
 import java.util.*;
 /**
- * JavaDataTypes
- *
- * Este programa lee una serie de números enteros largos (`long`) desde la entrada estándar
+ * Este programa lee una serie de números enteros desde la entrada estándar
  * y determina en qué tipos primitivos de Java pueden almacenarse sin pérdida de información.
  *
  * Tipos primitivos considerados:
@@ -12,15 +10,12 @@ import java.util.*;
  * - int    : 32 bits  → rango [-2^31, 2^31 - 1]
  * - long   : 64 bits  → rango [-2^63, 2^63 - 1]
  *
- * El programa usa Math.pow para calcular los límites de cada tipo,
- * y compara el número ingresado contra esos rangos.
- *
  * Si un número excede el rango del tipo `long`, el programa captura la excepción
  * y reporta que el número no puede almacenarse en ningún tipo primitivo.
  *
  * Entradas:
  * - Un número entero `t` indicando cuántos números serán evaluados.
- * - Luego `t` líneas, cada una con un número que se intentará almacenar en los tipos primitivos.
+ * - Luego `x` líneas, cada una con un número que se intentará almacenar en los tipos primitivos.
  *
  * Salida:
  * - Para cada número válido, se imprime en qué tipos puede almacenarse.

@@ -24,7 +24,7 @@ class JavaLoops {
     int N = Integer.parseInt(bufferedReader.readLine().trim());
     /*
     La instrucción proporciona una manera compacta de iterar sobre un rango de valores.
-    Los programadores a menudo se refieren a él como el "bucle for" debido a la forma en que se repite repetidamente
+    Los programadores a menudo se refieren a él como el "bucle for" debido a la forma en que se repetidamente
     hasta que se cumple una condición particular. La forma general de la declaración se puede expresar de la siguiente manera:
 
     for (initialization; termination; increment) {
@@ -33,7 +33,7 @@ class JavaLoops {
 
     Al usar esta versión de la declaración, tenga en cuenta que:
 
-    La expresión de inicialización inicializa el bucle; se ejecuta una vez, cuando comienza el bucle.
+    La expresión de inicialización que inicializa el bucle; se ejecuta una vez, cuando comienza el bucle.
     Cuando la expresión de terminación se evalúa como false, el bucle termina.
     La expresión de incremento se invoca después de cada iteración a través del bucle;
     es perfectamente aceptable que esta expresión incremente o disminuya un valor.
