@@ -5,7 +5,7 @@
 
 > 📘 **Autor**: Cristopher Alejandro Escamilla Soto  
 > 🎯 **Curso**: Introducción a Java - HackerRank  
-> 🧠 **Propósito**: Reforzar y repasar los conceptos básicos de Java como un pro gamer del código. 👾
+> 🧠 **Propósito**: Reforzar y repasar los conceptos básicos de Java. 👾
 
 ---
 
