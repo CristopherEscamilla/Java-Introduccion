@@ -23,6 +23,15 @@ import java.util.*;
      LocalDate date = LocalDate.of(year, month, day);
      return date.getDayOfWeek().toString();
    }
+
+   /**
+    *Calendar calendar = Calendar.getInstance();
+    *calendar.set(Calendar.YEAR, year);
+    *calendar.set(Calendar.MONTH, month - 1);
+    *calendar.set(Calendar.DAY_OF_MONTH, day);
+
+    * return calendar.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.LONG, Locale.ENGLISH).toUpperCase();
+    */
    public static void main(String[] args) {
      String s = findDay(8,28,25);
      System.out.println(""+s);
